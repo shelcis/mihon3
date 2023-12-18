@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>4eachblog</title>
+</head>
+
+<!-- Flexboxを利用してレイアウト設定 -->
+<body>
+    <!-- ロゴマーク -->
+    <img class="logoImg" src="img/4eachblog_logo.jpg">
+    <header>
+        <!-- メニューリスト -->
+        <ul>
+            <li>トップ</li>
+            <li>プロフィール</li>
+            <li>4eachについて</li>
+            <li>登録フォーム</li>
+            <li>問い合わせ</li>
+            <li>その他</li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="left">
+            <!-- 見出し -->
+            <h1>プログラミングに役立つ書籍</h1>
+            <!-- 作成日 -->
+            <p> 2017年 1月 15日 </p>
+            <!-- 大きな画像 -->
+            <img src="img/office.jpg">
+            <!-- コメント -->
+            <p>4eachはインターノウスが提供するオンラインでプログラミングが勉強できるeラーニングシステムです。</p>
+            <!-- 小見出し -->
+            <p>記事中身</p>
+            <!--  
+                FlexBox にてレイアウト設定
+                ８つの画像 を折り返し表示
+             -->
+            <div class="gray_box">
+                <div class="img_caption">
+                    <img src="img/pic1.jpg">
+                    <p>ドメインの取得方法</p>
+                </div>
+                <div class="img_caption">
+                    <img src="img/pic2.jpg">
+                    <p>快適な職場環境</p>
+                </div>
+                <div class="img_caption">
+                    <img src="img/pic3.jpg">
+                    <p>Linuxの基礎</p>
+                </div>
+                <div class="img_caption">
+                    <img src="img/pic4.jpg">
+                    <p>マーケティング入門</p>
+                </div>
+                <div class="img_caption">
+                    <img src="img/pic5.jpg">
+                    <p>アクティブラーニング</p>
+                </div>
+                <div class="img_caption">
+                    <img src="img/pic6.jpg">
+                    <p>CSSの効率的な勉強方法</p>
+                </div>
+                <div class="img_caption">
+                    <img src="img/pic7.jpg">
+                    <p>リーダブルコードとは</p>
+                </div>
+                <div class="img_caption">
+                    <img src="img/pic8.jpg">
+                    <p>HTML5の可能性</p>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <!-- 小タイトル + 箇条書きリスト -->
+            <h3>人気の記事</h3>
+            <ul>
+                <li>PHPオススメ本</li>
+                <li>PHP MyAdminの使い方</li>
+                <li>今人気のエディタ Top5</li>
+                <li>HTMLの基礎</li>
+            </ul>
+            <!-- 小タイトル + 箇条書きリスト -->
+            <h3>オススメリンク</h3>
+            <ul>
+                <li>インターノウス株式会社</li>
+                <li>XAMPPのダウンロード</li>
+                <li>Eclipseのダウンロード</li>
+                <li>Bracketsのダウンロード</li>
+            </ul>
+            <!-- 小タイトル + 箇条書きリスト -->
+            <h3>カテゴリ</h3>
+            <ul>
+                <li>HTML</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <!-- © -->
+        <p>copyright © internous | 4each blog the which provides A to Z about programming.</p>
+    </footer>
+</body>
+</html>
